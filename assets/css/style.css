@@ -3,3 +3,113 @@ nav a.active {
     color: #f00;
 }
 
+.article-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.article-form input,
+.article-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.article-form button {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.article-form button:hover {
+    background-color: #3367d6;
+}
+
+.article {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.article h2 {
+    margin-top: 0;
+}
+
+.article small {
+    color: #888;
+}
+
+.error {
+    color: #c00;
+    background-color: #fee;
+    padding: 10px;
+    border: 1px solid #c00;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.article-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.article-card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.article-card p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #444;
+}
+
+.article-card small {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.articles-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+}
+
+.add-article-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.add-article-button:hover {
+    background-color: #45a049;
+}
